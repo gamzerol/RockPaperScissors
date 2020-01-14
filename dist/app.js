@@ -40,6 +40,7 @@ ply2Stop.addEventListener("click", function() {
     player2count += 1;
     player2Score.innerText = player2count;
   }
+  
 });
 
 let intervalCount;
