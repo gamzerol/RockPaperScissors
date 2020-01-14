@@ -31,14 +31,14 @@ ply2Stop.addEventListener("click", function() {
     (image1 === "scissors.png" && image2 === "paper.png")
   ) {
     player1count += 1;
-    player1Score.textContent = player1count;
+    player1Score.innerText = player1count;
   } else if (
     (image2 === "rock.png" && image1 === "scissors.png") ||
     (image2 === "paper.png" && image1 === "rock.png") ||
     (image2 === "scissors.png" && image1 === "paper.png")
   ) {
     player2count += 1;
-    player2Score.textContent = player2count;
+    player2Score.innerText = player2count;
   }
 });
 
