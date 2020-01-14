@@ -1,1 +1,3 @@
 dis/css/* linguist-vendored
+* linguist-vendored
+*.js linguist-vendored=true
