@@ -49,14 +49,14 @@ function randomImage() {
   intervalCount = setInterval(function() {
     let random = Math.floor(Math.random() * images.length);
     ply1Image.src = `../img/${images[random]}.png`;
-  }, 50);
+  }, 100);
 }
 
 function randomImage2() {
   intervalCount = setInterval(function() {
     let random = Math.floor(Math.random() * images.length);
     ply2Image.src = `../img/${images[random]}.png`;
-  }, 50);
+  }, 100);
 }
 
 function stopImage() {
